@@ -1,0 +1,151 @@
+{
+	"id": "aa25f754-70f9-3a4e-8b29-d80d2c9df59e",
+	"name": "Request Reference for service offering",
+	"description": "",
+	"order": [
+		"33069f9f-2f0c-ec7e-e1a8-116298181ded",
+		"15df014b-f8d6-9a70-3ddf-dbc58829def7",
+		"54c40ff8-4566-e4cb-6023-355bf364b179"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1518687129548,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "15df014b-f8d6-9a70-3ddf-dbc58829def7",
+			"headers": "Accept: application/json\nContent-Type: application/json\nAuthorization: Basic YWRtaW46Y2xvdWQ=\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46Y2xvdWQ=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://csa45mr.csacloud.local:8444/csa/rest/login/PROVIDER/admin",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1518695055757,
+			"name": "Get API to find User Identifier",
+			"description": "\nAPI to get UserIdentifier ",
+			"collectionId": "aa25f754-70f9-3a4e-8b29-d80d2c9df59e",
+			"responses": [],
+			"rawModeData": "{\r\n\"requestReference\":\"<Subscription ID to be canceled>\",\r\n\"action\":\"CANCEL_SUBSCRIPTION\"\r\n} \r\n"
+		},
+		{
+			"id": "33069f9f-2f0c-ec7e-e1a8-116298181ded",
+			"headers": "Accept: application/json\nContent-Type: application/json\nAuthorization: Basic YWRtaW46Y2xvdWQ=\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46Y2xvdWQ=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://csa45mr.csacloud.local:8444/csa/api/catalog/filter",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1518695052039,
+			"name": "Get Catalog ID for finding service offering reference",
+			"description": "",
+			"collectionId": "aa25f754-70f9-3a4e-8b29-d80d2c9df59e",
+			"responses": [],
+			"rawModeData": "{\r\n    \"state\": \"ACTIVE\"\r\n}"
+		},
+		{
+			"id": "54c40ff8-4566-e4cb-6023-355bf364b179",
+			"headers": "Authorization: Basic YWRtaW46Y2xvdWQ=\nAccept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46Y2xvdWQ=",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://csa45mr.csacloud.local:8444/csa/rest/catalog/8acfd09b4ff16ec7014ff176ea2c0006/offering?userIdentifier=90d96588360da0c701360da0f1d600a1",
+			"queryParams": [
+				{
+					"key": "userIdentifier",
+					"value": "90d96588360da0c701360da0f1d600a1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1518695059071,
+			"name": "Get Request Reference for creating a request using service offering",
+			"description": "Get API call for getting list of service offerings in a catalog",
+			"collectionId": "aa25f754-70f9-3a4e-8b29-d80d2c9df59e",
+			"responses": [],
+			"rawModeData": "{\r\n\"passwordCredentials\" : {\r\n\"username\" : \"consumeruser\",\r\n\"password\" : \"password\"\r\n},\r\n\"tenantName\":\"ORG_NAME\"\r\n}"
+		}
+	]
+}
