@@ -1,0 +1,58 @@
+{
+	"id": "e78064f9-7160-d537-c709-0881aae98569",
+	"name": "Get Request Reference",
+	"description": "",
+	"order": [
+		"b274a6f5-97a1-1983-403d-6acc292abb4c"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1518687129548,
+	"owner": 0,
+	"public": false,
+	"hasRequests": true,
+	"requests": [
+		{
+			"id": "b274a6f5-97a1-1983-403d-6acc292abb4c",
+			"headers": "Accept: application/json\nContent-Type: application/json\nx-auth-token: eyJ0eXAiOiJKV1MiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4YTgyOGJkOTYwYjY5OTg0MDE2MGI2OTliMDE2MDA3ZCIsInJlZnJlc2hfdG9rZW4iOiJCcUUxaXcxMjA3QnZ2TFlVbzlWN1B2MzU1bzJIRmNLTmI1YzhkVlhSc0J3VktZZXJUSlpSZVlOMW9BYXVoRjhNc2VQdXp2TEdTWFhyY2s5V3VKVjhjNkxyd2RzeWszcUp3SUI2YndINnYwVjhTM0pMSy8yR1ZLQWdKK3dMYytFT0RaSEFzZFVIWFRJSXphS1YrMnNPMG1xYUprT1MwRjh2RDdpNVlWVTVCTkZOWWQ4MFh1bnlHNkk3UHE3M3c2T2VPdGhSUUJkS2NPd1Z2YUlEbUN2TGp1UjlmRS9PVExVd3g2bHFMdlVrMUM2Zk0rejQ3MzJYNTJiNW1mb2laNlN4TENzejgrKzNlbFhRSzJDdmIzcmkzcnNxK3FtZkNSclJMcGFPWjZBR0pWZndSb1hBQlVYNHVLazRRUEtnYnVnRkM5Nno5R3lsZTRzZFo0YUxUdzV6QXdEN1Y5YU1xUllRZHdTZHRpdU1VaVd6Ukh4ZWh4M1NYYnJNeFhmQXV1Q1hyTlJoMU1XMk1VNUxISGFYSnVyeTBoTllKNU9Ic3FPdG9jcVowbk1qNTdTSmNhTFc0V25ndXdubFRucndLMlBQNjhFV0dEN1N4L21uWEMvd3R1YlhNdGdBcE9lYjRoVWxsTklPbzc1UEE5SnBxSnBIR3ErS05BPT0iLCJpc3MiOiJJZE0gMS4xNi4xLTIwMTcwOTI3LTI5OSIsImNvbS5ocGUuaWRtOnRydXN0b3IiOm51bGwsImV4cCI6MTUxOTI5NzQwMiwiY29tLmhwLmNsb3VkOnRlbmFudCI6eyJpZCI6IjhhODI4YmQ5NjBiNjk5ODQwMTYwYjY5OWFjMTQwMDU3IiwibmFtZSI6IkNPTlNVTUVSIiwiZGVzY3JpcHRpb24iOiJDb25zdW1lciIsImVuYWJsZWQiOnRydWV9LCJwcm4iOiJjb25zdW1lciIsImlhdCI6MTUxOTI5NTYwMiwianRpIjoiNzI2Mjg3MjctNjYxZS00NjY4LTllNTAtNWRiZDlhYjJlMDAxIn0.Z6l_Uc6t3RL6WbyG24a6w2MyKOT44UEPl7bkeukSFJc\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth-token",
+					"value": "eyJ0eXAiOiJKV1MiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4YTgyOGJkOTYwYjY5OTg0MDE2MGI2OTliMDE2MDA3ZCIsInJlZnJlc2hfdG9rZW4iOiJCcUUxaXcxMjA3QnZ2TFlVbzlWN1B2MzU1bzJIRmNLTmI1YzhkVlhSc0J3VktZZXJUSlpSZVlOMW9BYXVoRjhNc2VQdXp2TEdTWFhyY2s5V3VKVjhjNkxyd2RzeWszcUp3SUI2YndINnYwVjhTM0pMSy8yR1ZLQWdKK3dMYytFT0RaSEFzZFVIWFRJSXphS1YrMnNPMG1xYUprT1MwRjh2RDdpNVlWVTVCTkZOWWQ4MFh1bnlHNkk3UHE3M3c2T2VPdGhSUUJkS2NPd1Z2YUlEbUN2TGp1UjlmRS9PVExVd3g2bHFMdlVrMUM2Zk0rejQ3MzJYNTJiNW1mb2laNlN4TENzejgrKzNlbFhRSzJDdmIzcmkzcnNxK3FtZkNSclJMcGFPWjZBR0pWZndSb1hBQlVYNHVLazRRUEtnYnVnRkM5Nno5R3lsZTRzZFo0YUxUdzV6QXdEN1Y5YU1xUllRZHdTZHRpdU1VaVd6Ukh4ZWh4M1NYYnJNeFhmQXV1Q1hyTlJoMU1XMk1VNUxISGFYSnVyeTBoTllKNU9Ic3FPdG9jcVowbk1qNTdTSmNhTFc0V25ndXdubFRucndLMlBQNjhFV0dEN1N4L21uWEMvd3R1YlhNdGdBcE9lYjRoVWxsTklPbzc1UEE5SnBxSnBIR3ErS05BPT0iLCJpc3MiOiJJZE0gMS4xNi4xLTIwMTcwOTI3LTI5OSIsImNvbS5ocGUuaWRtOnRydXN0b3IiOm51bGwsImV4cCI6MTUxOTI5NzQwMiwiY29tLmhwLmNsb3VkOnRlbmFudCI6eyJpZCI6IjhhODI4YmQ5NjBiNjk5ODQwMTYwYjY5OWFjMTQwMDU3IiwibmFtZSI6IkNPTlNVTUVSIiwiZGVzY3JpcHRpb24iOiJDb25zdW1lciIsImVuYWJsZWQiOnRydWV9LCJwcm4iOiJjb25zdW1lciIsImlhdCI6MTUxOTI5NTYwMiwianRpIjoiNzI2Mjg3MjctNjYxZS00NjY4LTllNTAtNWRiZDlhYjJlMDAxIn0.Z6l_Uc6t3RL6WbyG24a6w2MyKOT44UEPl7bkeukSFJc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://csa45mr.csacloud.local:8444/csa/api/mpp/mpp-offering/filter",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1519295825749,
+			"name": "Get Request Reference",
+			"description": "",
+			"collectionId": "e78064f9-7160-d537-c709-0881aae98569",
+			"responses": [],
+			"rawModeData": "{}"
+		}
+	]
+}

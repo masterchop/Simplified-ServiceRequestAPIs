@@ -1,0 +1,57 @@
+{
+	"id": "4a802aab-7f3b-8f56-8afd-43dd729a6451",
+	"name": "Request for X-Auth-token",
+	"description": "",
+	"order": [
+		"5c90a329-39d2-82ee-c889-50b38b9658b6"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1518694645711,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "5c90a329-39d2-82ee-c889-50b38b9658b6",
+			"headers": "Authorization: Basic aWRtVHJhbnNwb3J0VXNlcjpjbG91ZA==\nAccept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic aWRtVHJhbnNwb3J0VXNlcjpjbG91ZA==",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://csa45mr.csacloud.local:8444/idm-service/v2.0/tokens",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1519294173799,
+			"name": "Generate x-auth-token to authenticate consumer user",
+			"description": "Authenticate User and get x-auth-token ",
+			"collectionId": "4a802aab-7f3b-8f56-8afd-43dd729a6451",
+			"responses": [],
+			"rawModeData": "{\r\n\"passwordCredentials\" : {\r\n\"username\" : \"consumer\",\r\n\"password\" : \"cloud\"\r\n},\r\n\"tenantName\":\"CONSUMER\"\r\n}"
+		}
+	]
+}
